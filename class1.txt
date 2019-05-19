@@ -1,0 +1,92 @@
+    1  git init
+    2  git init
+    3  git init
+    4  git status
+    5  git status
+    6  git add testfile
+    7  git add Asif
+    8  git add TestDev
+    9  exit
+   10  edxit
+   11  exit
+   12  git version
+   13  git branch
+   14  git branch vivek
+   15  git config --name=asifkhanj
+   16  git  config --global user.name 
+   17  git  config --global user.name asifkhanj
+   18  git  config --global user.email asifkhanj@yahoo.com
+   19  git config --list
+   20  git config --global --list
+   21  git config --global --list
+   22  exit
+   23  git config --list
+   24  git config --global --list
+   25  pwd
+   26  mkdir gitnew
+   27  cd gitnew/
+   28  git init .
+   29  pwd
+   30  git config --global --list
+   31  pwd
+   32  touch file1
+   33  touch file2
+   34  ls -ltrh
+   35  pwd
+   36  git add file1
+   37  git status
+   38  git logs
+   39  git log
+   40  git status
+   41  git add file2
+   42  git status
+   43  git --version
+   44  git ld-files --stage
+   45  git ls-files --stage
+   46  git status
+   47  git commit -m "my first commit" file1
+   48  git status
+   49  git show 927421c
+   50  git commit -m "my second commit" file2
+   51  git show 32a3f68
+   52  git status
+   53  git --help
+   54  git log
+   55  git remote -v
+   56  git remote add origin https://github.com/asifkhanj/classone.git
+   57  git remote -v
+   58  git push origin master
+   59  git push origin master
+   60  git clone https://github.com/asifkhanj/classone.git
+   61  ls -ltr
+   62  cd classone/
+   63  ls -ltr
+   64  ls -l
+   65  pwd 
+   66  touch file3
+   67  git add .
+   68  git commit -m "clone level" file3
+   69  git logs
+   70  git log
+   71  git status
+   72  git push .
+   73  git push 
+   74  touch file{1..10}.txt
+   75  git add .
+   76  git commit -m "bluk files"
+   77  git push
+   78  git branch java
+   79  git brach
+   80  git branch
+   81  git branch mysql
+   82  git checkout java
+   83  git brach
+   84  git branch
+   85  git branch
+   86  touch file.java
+   87  git add file.java 
+   88  git commit -m "java files" file.java
+   89  git push
+   90   git push --set-upstream origin java
+   91  history 
+   92  history >> class1.txt
